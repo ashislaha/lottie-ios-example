@@ -6,7 +6,8 @@ target 'lottiesTest' do
   use_frameworks!
 
   # Pods for lottiesTest
-	pod 'lottie-ios'
+	pod 'lottie-ios', '~> 2.5.2'
+	#pod 'lottie-ios'
 
   target 'lottiesTestTests' do
     inherit! :search_paths

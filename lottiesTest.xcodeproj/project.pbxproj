@@ -16,9 +16,9 @@
 		5546653423337C7500641ADF /* lottiesTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5546653323337C7500641ADF /* lottiesTestTests.swift */; };
 		5546653F23337C7500641ADF /* lottiesTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5546653E23337C7500641ADF /* lottiesTestUITests.swift */; };
 		5546654D2333805800641ADF /* delivery.json in Resources */ = {isa = PBXBuildFile; fileRef = 5546654C2333805800641ADF /* delivery.json */; };
-		5546654F23338C8500641ADF /* 1.json in Resources */ = {isa = PBXBuildFile; fileRef = 5546654E23338C8500641ADF /* 1.json */; };
-		5546655123338CD300641ADF /* 2.json in Resources */ = {isa = PBXBuildFile; fileRef = 5546655023338CD300641ADF /* 2.json */; };
-		5546655323338CDB00641ADF /* 3.json in Resources */ = {isa = PBXBuildFile; fileRef = 5546655223338CDB00641ADF /* 3.json */; };
+		5551D7C4233CAB9900FF5FCD /* 2.json in Resources */ = {isa = PBXBuildFile; fileRef = 5551D7C1233CAB9800FF5FCD /* 2.json */; };
+		5551D7C5233CAB9900FF5FCD /* 1.json in Resources */ = {isa = PBXBuildFile; fileRef = 5551D7C2233CAB9900FF5FCD /* 1.json */; };
+		5551D7C6233CAB9900FF5FCD /* 3.json in Resources */ = {isa = PBXBuildFile; fileRef = 5551D7C3233CAB9900FF5FCD /* 3.json */; };
 		5D7DC451FE2685FE103A9E53 /* Pods_lottiesTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9ADE819AF36135BC3A51CCD /* Pods_lottiesTestUITests.framework */; };
 		B252D64BD7857879E2F8D308 /* Pods_lottiesTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADE833A469DAC49BD035D55B /* Pods_lottiesTestTests.framework */; };
 /* End PBXBuildFile section */
@@ -57,9 +57,9 @@
 		5546653E23337C7500641ADF /* lottiesTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lottiesTestUITests.swift; sourceTree = "<group>"; };
 		5546654023337C7500641ADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5546654C2333805800641ADF /* delivery.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = delivery.json; sourceTree = "<group>"; };
-		5546654E23338C8500641ADF /* 1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 1.json; sourceTree = "<group>"; };
-		5546655023338CD300641ADF /* 2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 2.json; sourceTree = "<group>"; };
-		5546655223338CDB00641ADF /* 3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 3.json; sourceTree = "<group>"; };
+		5551D7C1233CAB9800FF5FCD /* 2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 2.json; sourceTree = "<group>"; };
+		5551D7C2233CAB9900FF5FCD /* 1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 1.json; sourceTree = "<group>"; };
+		5551D7C3233CAB9900FF5FCD /* 3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 3.json; sourceTree = "<group>"; };
 		851CC723635AE29E18AAB349 /* Pods-lottiesTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lottiesTestTests.debug.xcconfig"; path = "Target Support Files/Pods-lottiesTestTests/Pods-lottiesTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8DFE3C1AA0A3DF913A184FD8 /* Pods-lottiesTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lottiesTest.debug.xcconfig"; path = "Target Support Files/Pods-lottiesTest/Pods-lottiesTest.debug.xcconfig"; sourceTree = "<group>"; };
 		ADE833A469DAC49BD035D55B /* Pods_lottiesTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lottiesTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,12 +135,12 @@
 				5546651E23337C7400641ADF /* AppDelegate.swift */,
 				5546652023337C7400641ADF /* ViewController.swift */,
 				5546652223337C7400641ADF /* Main.storyboard */,
-				5546654E23338C8500641ADF /* 1.json */,
-				5546655223338CDB00641ADF /* 3.json */,
-				5546655023338CD300641ADF /* 2.json */,
 				5546654C2333805800641ADF /* delivery.json */,
 				5546652523337C7500641ADF /* Assets.xcassets */,
 				5546652723337C7500641ADF /* LaunchScreen.storyboard */,
+				5551D7C2233CAB9900FF5FCD /* 1.json */,
+				5551D7C1233CAB9800FF5FCD /* 2.json */,
+				5551D7C3233CAB9900FF5FCD /* 3.json */,
 				5546652A23337C7500641ADF /* Info.plist */,
 			);
 			path = lottiesTest;
@@ -188,7 +188,7 @@
 				5546651723337C7400641ADF /* Sources */,
 				5546651823337C7400641ADF /* Frameworks */,
 				5546651923337C7400641ADF /* Resources */,
-				C93D514CFEF75E55E8D8776A /* [CP] Embed Pods Frameworks */,
+				B89629377D82BF34E2563A00 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -285,10 +285,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5546654F23338C8500641ADF /* 1.json in Resources */,
+				5551D7C4233CAB9900FF5FCD /* 2.json in Resources */,
+				5551D7C5233CAB9900FF5FCD /* 1.json in Resources */,
 				5546652923337C7500641ADF /* LaunchScreen.storyboard in Resources */,
-				5546655123338CD300641ADF /* 2.json in Resources */,
-				5546655323338CDB00641ADF /* 3.json in Resources */,
+				5551D7C6233CAB9900FF5FCD /* 3.json in Resources */,
 				5546654D2333805800641ADF /* delivery.json in Resources */,
 				5546652623337C7500641ADF /* Assets.xcassets in Resources */,
 				5546652423337C7400641ADF /* Main.storyboard in Resources */,
@@ -334,7 +334,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C93D514CFEF75E55E8D8776A /* [CP] Embed Pods Frameworks */ = {
+		B89629377D82BF34E2563A00 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
